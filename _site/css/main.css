@@ -1,0 +1,178 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+strong, b {
+  font-weight: bold;
+}
+em, i {
+  font-style: italic;
+}
+a img {
+  border: none;
+}
+/* END RESET*/
+
+/*global styles*/
+              a {
+                color: #3e423e;
+                text-decoration:none;
+                
+              }
+              div.bio-box{
+                  border: 5px dotted black;
+              }
+              
+              
+              /*hero styles*/
+              .full-hero{
+                  background-color: #c0e3c3;
+                  height:50vh;
+                  width: 100vw;
+                  
+              }
+          
+              
+              /*bio-styles*/
+              
+              .bio-wrapper{
+                 font-size:24px;
+                 overflow:hidden;
+                 margin:0 auto 100px;
+                 max-width:1000px;
+                 
+              }
+              
+              .bio-wrapper:after{
+                          visibility: hidden;
+                          display: block;
+                          font-size: 0;
+                          content: " ";
+                          clear: both;
+                          height: 0;
+                         }
+                
+                
+              .bio-box {
+                border: 1px solid black;
+                box-sizing: border-box;
+                float:left;
+                font-size: 1rem;
+                padding:0 2% 2%;
+                width:23%;
+                margin:40px 1% 0;
+              }
+              
+              .bio-copy{
+                  font-size:1em;
+                  padding:0 2% ;
+                  line-height:1.5;
+              }
+              .bio-copy a{
+                    color:green;
+                    
+                    
+                }
+                .bio-box h3{
+                    font-size:1.3em;
+                    margin:-40px 0 1em;
+                    color:#ffffff;
+                }
+                
+                .bio-box img{
+                    width:100%;
+                }
+                h1{
+                    border: 5px solid black;
+                    width:50%;
+                    border-radius:20px;
+                    padding:2%;
+                    display:block;
+                    text-align:center;
+                    box-sizing:border-box;
+                    margin: 1px auto
+                   }
+                   
+                   .bio-box > .social-link{
+                       margin: auto;
+                       display:block;
+                       
+                   }
+                   
+                   .bio-box a{
+                       text-align:center;
+                   }
+                   
+                  
+              /*social-link styles*/
+               .social-link{
+                    color: #fff;
+                    font-family: helvetica, arial, sans;
+                    font-weight:bold;
+                    font-size:1em;
+                    height:2.5em;
+                    line-height:1;
+                    width:2.5em;
+                    background:rgba(150,150,150,0.5);
+                    border-radius: 99px;
+                    display:inline-block;
+                    padding-top:0.85em;
+                    text-align:center;
+                    vertical-align:middle;
+                    box-sizing:border-box;
+                    
+                }
+                
+                /*social-list-styles*/
+                
+                .social-list{
+                    list-style:none;
+                    padding:0;
+                    text-align:center;
+                    
+                }
+                .social-list>li{
+                    display:inline-block;
+                    margin: 0 0.5em;
+                }
+                
+                /*background-style*/
+                html{
+                    background: #00d49f;
+                    font-size:20px;
+                    
+                }
+                
