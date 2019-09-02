@@ -1,161 +1,53 @@
 <!DOCTYPE html>
 <html>
       <head>
-            <title>Test Page: Don't Panic</title>
-            <meta charset="utf-8">
-            <style>
-            /*global styles*/
-              a {
-                color: #3e423e;
-                text-decoration:none;
-                
-              }
-              div.bio-box{
-                  border: 5px dotted black;
-              }
-              html,body{
-                  margin:0;
-                  padding:0;
-              }
-              
-              /*hero styles*/
-              .full-hero{
-                  background-color: #c0e3c3;
-                  height:50vh;
-                  width: 100vw;
-                  
-              }
-          
-              
-              /*bio-styles*/
-              
-              .bio-wrapper{
-                 font-size:24px;
-                 overflow:hidden;
-                 margin:0 auto 100px;
-                 max-width:1000px;
-                 
-              }
-              
-              .bio-wrapper:after{
-                          visibility: hidden;
-                          display: block;
-                          font-size: 0;
-                          content: " ";
-                          clear: both;
-                          height: 0;
-                         }
-                
-                
-              .bio-box {
-                border: 1px solid black;
-                box-sizing: border-box;
-                float:left;
-                font-size: 1rem;
-                padding:0 2% 2%;
-                width:23%;
-                margin:40px 1% 0;
-              }
-              
-              .bio-copy{
-                  font-size:1em;
-                  padding:0 2% ;
-                  line-height:1.5;
-              }
-              .bio-copy a{
-                    color:green;
-                    
-                    
-                }
-                .bio-box h3{
-                    font-size:1.3em;
-                    margin:-40px 0 1em;
-                    color:#ffffff;
-                }
-                
-                .bio-box img{
-                    width:100%;
-                }
-                h1{
-                    border: 5px solid black;
-                    width:50%;
-                    border-radius:20px;
-                    padding:2%;
-                    display:block;
-                    text-align:center;
-                    box-sizing:border-box;
-                    margin: 1px auto
-                   }
-                   
-                   .bio-box > .social-link{
-                       margin: auto;
-                       display:block;
-                       
-                   }
-                   
-                   .bio-box a{
-                       text-align:center;
-                   }
-                   
-                  
-              /*social-link styles*/
-               .social-link{
-                    color: #fff;
-                    font-family: helvetica, arial, sans;
-                    font-weight:bold;
-                    font-size:1em;
-                    height:2.5em;
-                    line-height:1;
-                    width:2.5em;
-                    background:rgba(150,150,150,0.5);
-                    border-radius: 99px;
-                    display:inline-block;
-                    padding-top:0.85em;
-                    text-align:center;
-                    vertical-align:middle;
-                    box-sizing:border-box;
-                    
-                }
-                
-                /*social-list-styles*/
-                
-                .social-list{
-                    list-style:none;
-                    padding:0;
-                    text-align:center;
-                    
-                }
-                .social-list>li{
-                    display:inline-block;
-                    margin: 0 0.5em;
-                }
-                
-                /*background-style*/
-                html{
-                    background: #00d49f;
-                    font-size:20px;
-                    
-                }
-                
-            </style>
-      </head>
+<title>Test Page: Don't Panic</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/main.css">
+</head>
+
+            
+            
+      
       <body>
+          <header class="header">
+  
+  <nav>
+    <ul class="header-nav nav-links">
+      <li><a href="/">Home</a></li>
+<li><a href="">Nav 1</a></li>
+<li><a href="">Nav 2</a></li>
+<li><a href="">Nav 3</a></li>
+    </ul>
+  </nav>
+  <a href="/" class="header-logo">
+    <img src="/images/logo.png" alt="Learn Enough"</a>
+</header>
     
          <div class="full-hero hero-home">
             <h1 >I'm an h1</h1>
             <ul class="social-list">
-                  <li>
-                    <a href="https://example.com/" class="social-link">Fb</a>
-                  </li>
-                  <li>
-                    <a href="https://example.com/" class="social-link">Tw</a>
-                  </li>
-                  <li>
-                    <a href="https://example.com/" class="social-link">Gh</a>
-                  </li>
-            </ul>
+    <li>
+        <a href="https://example.com/" class="social-link">Fb</a>
+    </li>
+    <li>
+        <a href="https://example.com/" class="social-link">Tw</a>
+    </li>
+    <li>
+        <a href="https://example.com/" class="social-link">Gh</a>
+    </li>
+</ul>
             </div> 
             <h2>I'm an h2</h2>
+            <p>
+              Learn Enough to Be Dangerous was founded in 2015 by Michael Hartl, Lee Donahoe,
+              and Nick Merwin. We believe that the kind of technical sophistication taught by
+              the Learn Enough tutorials can benefit at least a billion people, and probably
+              more.
+           </p>
+           
+           <p>Test paragraph</p>
+           
             <div class="bio-wrapper">
             <div class="bio-box">
                 <img src="https://placekitten.com/g/400/400">
@@ -240,5 +132,32 @@
             Other related tutorials can be found at
             <a href="https://learnenough.com/">learnenough.com</a>.
         </p>
+        <footer class="footer">
+    <a href="/" class="footer-logo">
+        <img src="/images/logo.png" alt="Learn Enough">
+    </a>
+    <nav>
+        <ul class="footer-nav nav-links">
+            <li><a href="/">Home</a></li>
+<li><a href="">Nav 1</a></li>
+<li><a href="">Nav 2</a></li>
+<li><a href="">Nav 3</a></li>
+        </ul>
+        <ul>
+            <ul class="social-list">
+    <li>
+        <a href="https://example.com/" class="social-link">Fb</a>
+    </li>
+    <li>
+        <a href="https://example.com/" class="social-link">Tw</a>
+    </li>
+    <li>
+        <a href="https://example.com/" class="social-link">Gh</a>
+    </li>
+</ul>
+        </ul>
+    </nav>
+    <h3>Learn Enough<span> to be dangerrous</span></h3>
+</footer>
       </body>
 </html>

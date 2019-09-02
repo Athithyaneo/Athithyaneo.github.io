@@ -56,14 +56,89 @@ a img {
                   border: 5px dotted black;
               }
               
+              body{
+                  font-family: helvetica, arial, sans;
+              }
+              
+              h2+p{
+                  font-size: 0.8em;
+                  font-style: italic;
+                  margin:1px auto 0;
+                  max-width:70%;
+                  text-align: center;
+              }
+              
+              /*header-styles*/
+              
+              .header{
+                  background-color: #000;
+                  color:#fff;
+                  width:100%;
+                  position: fixed;
+                  z-index: 1;
+                  
+                  
+                  
+                  
+              }
+              .header-logo {
+                  position:relative;
+                  top:10px;
+                  box-sizing: border-box;
+                  width:10vh;
+                  height:10vh;
+                  display: block;
+                  text-align: center;
+                  
+              }
+              
+              .header-logo img{
+                  width:4.3vh;
+              }
+              
+              .header-nav{
+                 float:right; 
+            }
+               .nav-links>li{
+                   display:inline-block;
+                   padding: 3.5vh 20px 0 0;
+                   margin-left: 1em;
+                   color: #000;
+                   font-weight: bold;
+                   text-decoration: none;
+                   text-transform: uppercase;
+               }
+               
+               .nav-links a:hover, 
+               .header-nav a:active
+               {
+                   color: #e3e312;
+               }
+               .header-nav>li:first-child a{
+                   color:#fff;
+               }
+               .header-nav>li:first-child a:hover{
+                   color:#e3e312;
+               }
+               .header-nav>li ~ li{
+                   border-left: 1px solid rgba(255,255,255,0.3);
+                   padding: 0.5vw;
+               }
+               
+               .header-logo:hover,
+               .header-logo:active{
+                   opacity: 0.5;
+               }
+              
               
               /*hero styles*/
               .full-hero{
-                  background-color: #c0e3c3;
+                  
                   height:50vh;
                   width: 100vw;
-                  
+                  box-sizing: border-box;
               }
+              
           
               
               /*bio-styles*/
@@ -115,16 +190,7 @@ a img {
                 .bio-box img{
                     width:100%;
                 }
-                h1{
-                    border: 5px solid black;
-                    width:50%;
-                    border-radius:20px;
-                    padding:2%;
-                    display:block;
-                    text-align:center;
-                    box-sizing:border-box;
-                    margin: 1px auto
-                   }
+            
                    
                    .bio-box > .social-link{
                        margin: auto;
@@ -153,8 +219,15 @@ a img {
                     text-align:center;
                     vertical-align:middle;
                     box-sizing:border-box;
+                    margin: 2em 0 1em;
                     
                 }
+                
+                .social-link:hover,
+                .social-link:active{
+                    background-color:#d2d94e;
+                    
+                } 
                 
                 /*social-list-styles*/
                 
@@ -171,8 +244,34 @@ a img {
                 
                 /*background-style*/
                 html{
-                    background: #00d49f;
+                    background-color: #0dde87;
                     font-size:20px;
                     
                 }
+                
+                /*footer-styles*/
+                .footer{
+                    background-color: #000;
+                    padding:10vh 0 15vh;
+                    text-align: center;
+                }
+                
+                .footer-logo img{
+                    width:50px;
+                }
+                .footer h3{
+                    padding-top:20px;
+                    color: #fff;
+                    text-transform: uppercase;
+                }
+                .footer h3 span{
+                    color:#aaa;
+                }
+                .footer-nav li {
+                    display: inline-block;
+                    margin: 2em 1em 0;
+                               } 
+                .footer-nav a {
+                    color: #ccc;
+               }
                 
